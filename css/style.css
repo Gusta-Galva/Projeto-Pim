@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* ==================================CABEÇALHO================================== */
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 130px;
+    background-color: var(--bg_header) ;
+}
+
+.box_logo{
+    /* top | right | bottom | left */
+    margin: 0 3em 0 1em;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font_header);
+}
+.txtLogo{
+    padding-left: 1em;
+    color: var(--txtlogo);
+    font-size: 24px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10em;
+}
+.ancora{
+    text-decoration: none;
+}
+.navbar-item{
+    padding: 0 3em 0 0;
+    list-style: none;
+    font-size: 18px;
+    font-family: var(--font_header);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--txt_itens_header);
+}
+/* ==================================MAIN================================== */
+body{
+    background-color: var(--bg_page);
+}
+
+/* ==================================SECTION 1================================== */
+.section-main_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 350px;
+    padding: 0 5em;
+}
+.section1_box{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0 0 0; 
+    padding: 0 5em;
+
+    background-color: var(--bg_section1_box);
+    border-radius: 25px;
+    color: var(--txt_section1_box);
+    font-family: var(--font_section1);
+}
+
+/* ==================================SECTION 2================================== */
+
+.section-main_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 440px;
+}
+.section2_box1{
+    margin-top: 3em;
+    height: 50px;
+    color: var(--txt_section2_box1);
+    font-weight: 600;
+    font-size: 30px;
+    font-family: var(--font_section2_box1);
+}
+.section2_galeria{
+    margin: 2em 0em;
+}
+
+/* ==================================SECTION 3================================== */
+
+.section-main_3{
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 350px;
+    background-color: var(--bg_section3_box);
+}
+.section3_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section3-box_title{
+    width: 300px;
+    height: 80px;
+    transform: translateY(-94px);
+
+    /* Sup_esq | Sup_dir | Inf_dir | Inf_esq */
+    border-radius: 0 0 30px 30px;
+    background-color: var(--bg_box);
+    color: var(--txt_section3_box);
+    font-family: var(--font_boxTitle);
+    font-size: 28px;
+    font-weight: 600;
+}
+.boxtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    text-align: center;
+}
+.section3_boxArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.boxItens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 300px;
+    height: 80px;
+
+    margin: 0 50px;
+
+    border-radius: 0 30px 0 30px;
+    background-color: var(--bg_box-item);
+}
+.txt-boxItens{
+    color: var(--txt_boxItens);
+    font-family: var(--font_boxItens);
+    font-size: 24px;
+    font-weight: 500
+}
+
+/* ==================================SECTION 4================================== */
+
+.section4_box{
+    width: 100%;
+    height: 350px;
+    background-color: var(--bg_section4_box);
+}
+
+/* ==================================RODAPÉ================================== */
+
+.footer{
+    background-color: var(--bg_footer);
+    height: 130px;
+}
+.box_footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.linha_footer{
+    width: 90px;
+    margin-top: 1.2em;
+    border: 1px solid #EED6C6;
+    
+    transform: rotate(90deg);
+}
+
+.box_footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box_footer1-item{
+    color: var(--txt_boxItens-footer);
+    padding-top: 0.9em;
+    font-family: var(--font_boxItens-footer);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.box_footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0em;
+}
+.box_footer2-item{
+    color: var(--txt_boxItens-footer);
+    padding-top: 0.9em;
+    font-family: var(--font_boxItens-footer);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.box_footer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5em;
+}
+.box_footer3-item{
+    color: var(--txt_boxItens-footer);
+    padding-top: 0.9em;
+    font-family: var(--font_boxItens-footer);
+    font-size: 18px;
+    font-weight: 400;
+}

@@ -1,0 +1,10 @@
+:root{
+    --font_header: "Montserrat", serif;
+    --font_section1: "Montserrat", serif;
+    --font_section2_box1: "Montserrat", serif;
+    --font_boxTitle: "Montserrat", serif;
+    --font_boxItens: "Montserrat", serif;
+    --font_boxItens-footer: "Montserrat", serif;
+
+    --font-login: "Montserrat", serif;
+}

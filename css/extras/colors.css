@@ -1,0 +1,42 @@
+:root{
+    /* Backgrounds */
+    --bg_page: #FAFAF0;
+    --bg_header: #9C8C81;
+    --bg_section1_box: #9C8C81;
+    --bg_section3_box: #9C8C81;
+    --bg_box: #74675E;
+    --bg_box-item: #74675E;
+    --bg_section4_box: #74675E;
+    --bg_footer: #9C8C81;
+    --bg-icons: #000;
+    --bg_box_footer: #74675E;
+    --linha_footer: #EED6C6;
+
+    --bg_section1_SobreNos: #FAFAF0;
+    --bg_section2_SobreNos: #9C8C81;
+    --bg_section3_SobreNos: #74675E;
+    --bg_section4_SobreNos: #FAFAF0;
+
+    --bg_botaoSelect_login: #9C8C81;
+    --bg_botaoSelect2_login: #74675E;
+    --bg_form_login: #9C8C81;
+    --bg_form_input: #EED6C6;
+    --bg_form_botao: #74675E;
+    --bg_form_botao_hover: #423a35;
+
+    /* Textos */
+    --txtlogo: #fff;
+    --txt_itens_header: #fff;
+    --txt_section1_box: #fff;
+    --txt_section2_box1: #000000;
+    --txt_section3_box: #fff;
+    --txt_boxItens: #fff;
+    --txt_boxItens-footer: #fff;
+
+    --txt_login-input: #241717;
+    --txt_login-placeholder: #4e4d4d;
+    --txt_login-botao: #fff; 
+    --txt_login-botao_hover: #fff;
+    --txt_login-link: #fff;
+    --txt_login-link_hover: #c4c3ca;
+}

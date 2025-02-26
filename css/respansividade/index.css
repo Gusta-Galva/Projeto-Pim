@@ -1,0 +1,21 @@
+@media (min-width: 1366px) {
+    .navbar-item#item7{
+        display: none;
+    }
+    .navbar-item#item8{
+        display: none;
+    }
+    .section3_box{
+        padding: 0 5em 0 5em;
+    }
+    .boxItens{
+        width: 220px;
+        height: 80px;
+    }
+    .txt-boxItens{
+        font-size: 20px;
+    }
+    .linha_footer#linha4{
+        display: none;
+    }
+}
