@@ -1,0 +1,88 @@
+.sectionCameras{
+    position: relative;
+    background-color: var(--bg_section-cameras);
+    padding: 30px 10%;
+    min-height: 90vh;
+}
+
+.sectionCameras h2{
+    font-size: 40px;
+    text-align: center;
+    color: var(--txt_titulo-cameras);
+    margin-bottom: 30px;
+    font-family: var(--font-cameras);
+    font-weight: 800;
+}
+
+.resume-content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.tab-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.tab-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #FFF;
+    background-color: var(--bg_botao_camera);
+    padding: 5px;
+    border-bottom: 3px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+    font-family: var(--font-cameras);
+}
+
+.tab-list.active{
+    border-bottom-color: var(--bg_botao_border);
+    color: var(--txt_botao-cameras);
+    background-color: var(--bg_botao_camera);
+    opacity: 1;
+}
+
+.tab-list h3{
+    font-size: 25px;
+}
+
+.tab-wrapper{
+    position: relative;
+    width: 100%;
+    min-height: 550px;
+}
+
+.tab-item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: var(--bg_div_camera);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0.8);
+    font-family: var(--font-cameras);
+}
+
+.tab-item.active{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+    transition: 0.5s;
+}
+

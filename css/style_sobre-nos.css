@@ -12,16 +12,24 @@
 .section1_SobreNos_box{
     /* height: 300px; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 2em 0 0 0; 
+    align-items: start;
+    /* margin: 2em 0 0 0;  */
     padding: 0 5em;
 
-    background-color: var(--bg_section1_box);
     border-radius: 25px;
-    color: var(--txt_section1_box);
+    color: var(--txt_sn1_title);
     font-family: var(--font_section1);
+}
+
+.Sec1_title{
+    font-size: 36px;
+}
+.Sec1_txt{
+    text-align: justify;
+    margin-top: 25px;
+    padding-left: 50px;
 }
 
 /* ==================================SECTION 2================================== */
@@ -29,21 +37,64 @@
 .section2_SobreNos{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     width: 100%;
-    height: 450px;
+    height: 800px;
     background-color: var(--bg_section2_SobreNos);
 }
 .section2_SobreNos_box{
-    margin-top: 3em;
+    margin-top: 2.5em;
     height: 50px;
-    color: var(--txt_section2_box1);
-    font-weight: 600;
+    color: var(--txt_sn2_title);
+    /* font-weight: 600; */
     font-size: 30px;
     font-family: var(--font_section2_box1);
     background-color: var(--bg_section2_SobreNos);
+}
+
+.Sec2_SobreNos_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sec2_title{
+    font-size: 36px;
+}
+.cardBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.card1, .card2, .card3{
+    background-color: var(--bg_section2_SobeNosCard);
+    width: 300px;
+    height: 550px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 30px;
+}
+.card1:hover, .card2:hover, .card3:hover{
+    transition: .5s;
+    transform: scale(1.1);
+}
+.card1{
+    margin-right: 1em;
+}
+.card2{
+    margin-right: 1em;
+}
+.cardTxt{
+    font-size: 20px;
+    padding: 0 50px;
+    text-align: justify;
 }
 
 /* ==================================SECTION 3================================== */
@@ -56,8 +107,9 @@
     align-items: center;
 
     width: 100%;
-    height: 450px;
+    height: 800px;
     background-color: var(--bg_section3_SobreNos);
+    color: var(--txt_sn3_title);
 }
 .section3_SobreNos_box{
     display: flex;
@@ -66,16 +118,106 @@
     flex-direction: column;
 }
 
+.Sec3_title{
+    font-size: 36px;
+}
+.cardBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.card4, .card5{
+    background-color: var(--bg_section3_SobeNosCard);
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 30px;
+}
+.card4:hover, .card5:hover{
+    transition: .5s;
+    transform: scale(1.1);
+}
+.card4{
+    margin-right: 10em;
+}
+
+.cardTxt{
+    font-size: 20px;
+    padding: 0 50px;
+    font-weight: 400;
+    text-align: justify;
+}
+
 /* ==================================SECTION 4================================== */
 
 .section4_SobreNos{
     width: 100%;
-    height: 450px;
+    height: 100%;
     background-color: var(--bg_section4_SobreNos);
+    padding: 1em 5em;
 }
 .section4_SobreNos_box{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 5em;
+}
+
+.Sec4_title{
+    font-size: 36px;
+    margin-top: 30px
+}
+
+.section4_boxAva{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.boxAvaliacao{
+    width: 1500px;
+    height: 200px;
+    background-color: var(--bg_section4_SobreNosBoxAva);
+    border-radius: 15px;
+    margin: 0 0 1em 0;
+}
+.box-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 0 50px;
+}
+.titleAva{
+    font-family: var(--font-sn);
+    font-weight: 200;
+    font-size: 20px;
+    color: var(--txt_sn4_title);
+    /* padding: 20px 0 0 50px; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.txtAva{
+    font-family: var(--font-sn);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--txt_sn4_title);
+    padding: 35px 70px 0px 70px;
+}
+.stars {
+    color: #ccc;
+    font-size: 25px;
+}
+.stars .filled {
+    color: gold;
 }

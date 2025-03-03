@@ -11,7 +11,7 @@
     flex-direction: row;
     width: 100%;
     height: 130px;
-    background-color: var(--bg_header) ;
+    background-color: var(--bg_header);
 }
 
 .box_logo{
@@ -24,6 +24,7 @@
     align-items: center;
     font-family: var(--font_header);
 }
+
 .txtLogo{
     padding-left: 1em;
     color: var(--txtlogo);
@@ -36,14 +37,17 @@
     justify-content: center;
     align-items: center;
 }
+
 .navbar-box{
     display: flex;
     flex-direction: row;
     margin-left: 10em;
 }
+
 .ancora{
     text-decoration: none;
 }
+
 .navbar-item{
     padding: 0 3em 0 0;
     list-style: none;
@@ -54,6 +58,78 @@
     text-overflow: ellipsis;
     color: var(--txt_itens_header);
 }
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg_search);
+    padding: 5px;
+    margin: 2.7em 3em 0 0;
+    border-radius: 10px;
+
+    height: 50px;
+    width: 350px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+
+    font-size: 14px;
+    background: var(--bg_search);
+    color: var(--txt_search);
+}
+
+.search-bar input::placeholder{
+    color: var(--txt_search);
+}
+
+.search-bar button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+
+/* .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  } */
+  
+
+
 /* ==================================MAIN================================== */
 body{
     background-color: var(--bg_page);

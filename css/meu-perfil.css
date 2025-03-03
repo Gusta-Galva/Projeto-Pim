@@ -1,0 +1,73 @@
+.sectionPerfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+
+    width: 100%;
+    height: 100vh;
+    padding: 0 5em;
+}
+
+.perfilHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--txt_nome_usuario-meuPerfil);
+    font-weight: 100;
+    font-size: 48px;
+    font-family: var(--font-meuPerfil);
+
+    width: 1620px;
+    height: 200px;
+
+    background-color: var(--bg_header-perfil);
+
+    border-radius: 40px;
+
+    transform: translateX(50px);
+
+    border: 3px solid var(--bg_border_perfil);
+}
+
+.imgCirculo{
+
+
+    color: var(--txt_nome_usuario-meuPerfil);
+    font-weight: 100;
+    font-size: 38px;
+    font-family: var(--font-meuPerfil);
+
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: var(--bg_img_circulo-perfil);
+    transform: translate(-50px,-220px);
+    
+    border: 3px solid var(--bg_border_perfil);
+
+}
+.imgPerfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translate(22px,22px);
+}
+
+.perfilCorpo{
+    transform: translate(55px,-250px);
+    width: 1420px;
+    height: 635px;
+
+    background-color: var(--bg_header-perfil);
+
+    border-radius: 0 0 40px 40px;
+
+}
+

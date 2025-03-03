@@ -2,6 +2,7 @@
     /* Backgrounds */
     --bg_page: #FAFAF0;
     --bg_header: #9C8C81;
+    --bg_search: #756a62;
     --bg_section1_box: #9C8C81;
     --bg_section3_box: #9C8C81;
     --bg_box: #74675E;
@@ -14,8 +15,11 @@
 
     --bg_section1_SobreNos: #FAFAF0;
     --bg_section2_SobreNos: #9C8C81;
+    --bg_section2_SobeNosCard: #74675E;
     --bg_section3_SobreNos: #74675E;
+    --bg_section3_SobeNosCard: #9C8C81;
     --bg_section4_SobreNos: #FAFAF0;
+    --bg_section4_SobreNosBoxAva: #74675E;
 
     --bg_botaoSelect_login: #9C8C81;
     --bg_botaoSelect2_login: #74675E;
@@ -24,14 +28,35 @@
     --bg_form_botao: #74675E;
     --bg_form_botao_hover: #423a35;
 
+    --bg_section-faq: #FAFAF0;
+    --bg_pergunta-faq: #FAFAF0;
+    --bg_pergunta-faq-hover: #EFEBE1;
+    --bg_resposta-faq: #EFEBE1;
+
+    --bg_section-cameras: #FAFAF0;
+    --bg_botao_camera: #74675E;
+    --bg_botao_border: #241717;
+    --bg_div_camera: #9C8C81;
+
+    --bg_header-perfil: #9C8C81;
+    --bg_img_circulo-perfil: #9C8C81;
+    --bg_border_perfil: #74675E;
+
+
     /* Textos */
     --txtlogo: #fff;
     --txt_itens_header: #fff;
+    --txt_search: #fff;
     --txt_section1_box: #fff;
     --txt_section2_box1: #000000;
     --txt_section3_box: #fff;
     --txt_boxItens: #fff;
     --txt_boxItens-footer: #fff;
+
+    --txt_sn1_title: #000;
+    --txt_sn2_title: #fff;
+    --txt_sn3_title: #fff;
+    --txt_sn4_title: #fff;
 
     --txt_login-input: #241717;
     --txt_login-placeholder: #4e4d4d;
@@ -39,4 +64,12 @@
     --txt_login-botao_hover: #fff;
     --txt_login-link: #fff;
     --txt_login-link_hover: #c4c3ca;
+    
+    --txt_pergunta-faq: #000000;
+    --txt_resposta-faq: #000000;
+
+    --txt_titulo-cameras: #000;
+    --txt_botao-cameras: #fff;
+
+    --txt_nome_usuario-meuPerfil: #fff;
 }
